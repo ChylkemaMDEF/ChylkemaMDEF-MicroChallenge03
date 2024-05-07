@@ -28,12 +28,13 @@ Before we started with this challenge we discussed the steps we felt needed to r
 # Understanding the Circuit of the Device
 
 The circuit of this device was quite simple as it required a translation of a rotation of a dial into certain devices being turned on or off gradually. We brainstormed about different potential ways this could happen and it was determined that the best way was to use a potentiometer and several relays that are each connected to their own individual plug.The wanted interaction is as followed:
+
 ![WhatsApp Image 2024-05-07 at 16 17 45_5aa18951](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/68ef51f2-a378-481e-9307-51d73acfbff7)
 
 From here we researched online how we could connect a single outlet in the wall to multiple plugs and relays. Some of the most helpful diagrams and articles that we used were:
 
-![Turning an appliance into a smart device] (https://www.circuitbasics.com/build-an-arduino-controlled-power-outlet/[
-![Splitting Power with Multiple Relays] (https://electronics.stackexchange.com/questions/205286/splitting-mains-power-into-multiple-relay-switched-circuits)
+![Turning an appliance into a smart device](https://www.circuitbasics.com/build-an-arduino-controlled-power-outlet/)
+![Splitting Power with Multiple Relays](https://electronics.stackexchange.com/questions/205286/splitting-mains-power-into-multiple-relay-switched-circuits)
 ![Controlling multiple outlets with SSR Relay](https://forum.arduino.cc/t/controlling-multiple-outlets-with-ssr-relay-module-and-arduino/1218455)
 
 With this in mind we created a quick drawing about the connections and how we saw the plug aspect being. Next to this a quick flowchart was created for the neccessary code:
