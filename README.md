@@ -37,9 +37,10 @@ From here we researched online how we could connect a single outlet in the wall 
 * [Splitting Power with Multiple Relays](https://electronics.stackexchange.com/questions/205286/splitting-mains-power-into-multiple-relay-switched-circuits)
 * [Controlling multiple outlets with SSR Relay](https://forum.arduino.cc/t/controlling-multiple-outlets-with-ssr-relay-module-and-arduino/1218455)
 
-With this in mind we created a quick drawing about the connections and how we saw the plug aspect being. Next to this a quick flowchart was created for the neccessary code:
+When looking at the interaction we wanted and the way we wanted the device to fucntion we created a flowchart for the arduino code needed.
 
-![WhatsApp Image 2024-05-07 at 15 44 38_1385cdea](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/c44052fa-2cb6-4922-bc5f-b52755c788ab)
+![Energy Relationships - Function Arduino Code](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/0a9dae72-bee7-4a90-82ea-60d766cdf184)
+
 
 
 ## Bill of Materials Circuit Dial
