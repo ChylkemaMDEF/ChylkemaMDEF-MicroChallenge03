@@ -33,9 +33,9 @@ The circuit of this device was quite simple as it required a translation of a ro
 
 From here we researched online how we could connect a single outlet in the wall to multiple plugs and relays. Some of the most helpful diagrams and articles that we used were:
 
-[Turning an appliance into a smart device](https://www.circuitbasics.com/build-an-arduino-controlled-power-outlet/)
-[Splitting Power with Multiple Relays](https://electronics.stackexchange.com/questions/205286/splitting-mains-power-into-multiple-relay-switched-circuits)
-[Controlling multiple outlets with SSR Relay](https://forum.arduino.cc/t/controlling-multiple-outlets-with-ssr-relay-module-and-arduino/1218455)
+* [Turning an appliance into a smart device](https://www.circuitbasics.com/build-an-arduino-controlled-power-outlet/)
+* [Splitting Power with Multiple Relays](https://electronics.stackexchange.com/questions/205286/splitting-mains-power-into-multiple-relay-switched-circuits)
+* [Controlling multiple outlets with SSR Relay](https://forum.arduino.cc/t/controlling-multiple-outlets-with-ssr-relay-module-and-arduino/1218455)
 
 With this in mind we created a quick drawing about the connections and how we saw the plug aspect being. Next to this a quick flowchart was created for the neccessary code:
 
