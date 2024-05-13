@@ -28,17 +28,6 @@ Before we started with this challenge we discussed the steps we felt needed to r
 
 # The Process
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cQKXHks-g-8/0.jpg)](https://www.youtube.com/watch?v=cQKXHks-g-8)
-## Bill of Materials Circuit Dial (For 4 plug device
-* 1x Breadboard
-* 1x Barduino or Arduino board 
-* 2x 2 Channel DC 5V Relay Module-Low Level Trigger
-* Multiple Thick 240V Wires
-* 2x 4 to 1 Lever Wire Connectors
-* 2x 2 to 1 Lever Wire Connectors
-* 4x Sockets
-* 1x Wire with Wall Plug
-* 1x Potentio Meter
-* 1x Casing 3D Printed
   
 ## Building the Relay Circuit and Power Box
 The circuit of this device was quite simple as it required a translation of a rotation of a dial into certain devices being turned on or off gradually. We brainstormed about different potential ways this could happen and it was determined that the best way was to use a potentiometer and several relays that are each connected to their own individual plug.The wanted interaction is as followed:
@@ -60,8 +49,20 @@ Now that we had a better idea of what we wanted to build we ended up talking to 
 
 ![WhatsApp Image 2024-05-07 at 15 44 38_1385cdea](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/009c4915-0655-489a-80bd-d6c75f26f614)
 
-The steps for this part of the device creation are as followed:
+#### Bill of Materials Circuit Dial (For 4 plug device)
+* 1x Breadboard
+* 1x Barduino or Arduino board 
+* 2x 2 Channel DC 5V Relay Module-Low Level Trigger
+* Multiple Thick 240V Wires
+* 2x 4 to 1 Lever Wire Connectors
+* 2x 2 to 1 Lever Wire Connectors
+* 4x Sockets
+* 1x Wire with Wall Plug
+* 1x Potentio Meter
+* 1x Casing 3D Printed
 
+
+#### The steps to follow:
 1. 3D print casing for electrical components
 2. Screw 2 240V wires into each relay, check your relay first to see which of the two outer connectors you need. For us it was center and right connections. By screwing these in first you then have an easier job ahead. We did this once the relay was screwed in and it was much more difficult.
 3. Screw relays into box
@@ -147,6 +148,7 @@ The last important function in the code is the code that checks what the degrees
 
 ## Building the Dial Setup 
 
+The final part of the challenge was focussed on building the stand for the dial and determining the 
 
 
 
