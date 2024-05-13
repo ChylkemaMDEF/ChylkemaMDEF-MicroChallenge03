@@ -48,6 +48,11 @@ When looking at the interaction we wanted and the way we wanted the device to fu
 * 1x Barduino or Arduino board 
 * 3x 2 Channel DC 5V Relay Module-Low Level Trigger
 * 2x 33 Ohm Resistors
-* Multiple Connecting Wires
-* 6x Sockets
+* Multiple Thick 240V Wires
+* 4x Sockets
 * 1x Wire with Wall Plug
+* 1x Potentio Meter
+* 1x Casing 3D Printed 
+  
+
+
