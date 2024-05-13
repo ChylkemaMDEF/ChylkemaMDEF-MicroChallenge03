@@ -24,7 +24,10 @@ The defined output is: **A group of household electronic machines that start tur
 
 # The Plan
 Before we started with this challenge we discussed the steps we felt needed to reach the end goal, and which skills and things were needed beforehand. We wanted to work mostly on hardware during this challenge and get as much done for the display part of MDEFFest so that in the coming weeks we can focus more on further device and AI development. This is why this week was more focussed on the display, however as we didn't want to lose to much momentum we also scheduled moments to work on the AI infrastructure and PCB development for the physical devices of our design project. This was the original planning we had made and we focussed on these primary steps before adding anything else to keep us on track:
+
 ![image](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/f8dd8c19-d104-4dcf-8ade-bb90de674763)
+
+There was a division of tasks that took place throughout the week but in all aspects we helped eachother in the design. Carlotta took the lead in the creation of the arduino code and the electrical relay box. Oliver on the other hand spent the first day trying to better understand how we could create the physical display stand. After the first days of creating these seperate parts we came together to test the electrical box and finish building the setup. We both worked on the posters that were displayed, Carlotta on the dial poster and Oliver on the table poster.  Also in tandem to the work we show in this repo, we were working on further development of our AI bot so we both spent some time trying to build the PCB (Oliver) and better understanding the functions of our AI (Carlotta).
 
 # The Process
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cQKXHks-g-8/0.jpg)](https://www.youtube.com/watch?v=cQKXHks-g-8)
@@ -47,7 +50,7 @@ When looking at the interaction we wanted and the way we wanted the device to fu
 ### The Physical Ciruit
 Now that we had a better idea of what we wanted to build we ended up talking to Aurel about our idea and he suprised us by telling us that he had done a similar project for the electrical box and could share his knowledge with us. This helped a lot as from him we received the 3D file to print the box to store all the electrical components. From here we took a look at his created box and then made a design for how each wires would need to be connected to each other. The original idea for a connection of wires is shown in the following picture. We decided as this was for personal use to forgo the ground wire and instead plug the end into an extension plug as the safety. 
 
-![WhatsApp Image 2024-05-07 at 15 44 38_1385cdea](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/009c4915-0655-489a-80bd-d6c75f26f614)
+![DiagramCircuitMicroChallenge03](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/c3fed798-b34d-4416-88fd-da9d09b7b035)
 
 #### Bill of Materials Circuit Dial (For 4 plug device)
 * 1x Breadboard
@@ -146,9 +149,45 @@ The last important function in the code is the code that checks what the degrees
           }
         }
 
-## Building the Dial Setup 
+### Building the Dial Setup 
 
-The final part of the challenge was focussed on building the stand for the dial and determining the 
+The final part of the challenge was focussed on building the stand for the dial and determining the infographics that we wanted to display to the people. This was actually a fun process in which we designed a box in Fusion360 and then used a lasercutter to cut the individual parts and then putting the box together using hot glue and latches. 
+
+####  Bill of Materials Stand Display
+
+* Lasercutter
+* Hot Glue
+* Clamps
+* 2x 1.3 m by .9 m plywood (3 - 4 mm thick) (this area of woood can be changed depending on the size of the layercutter)
+* 3d printed knob
+
+In the process of building this dial it was quite simple. We started by making a quick mockup in Fusion360 and using AR software to get a feeling for size. We then focussed on making a paper prototype to see if the shape was truly what we like. We ran across the problem that are original idea was way to large for the actual printer. We scaled it down and cut at an angle but of course the grain was off so there was too much tension on the dial. In the end we altered our design to be a smaller dial case of 30cm diamter that was sat on a larger table. 
+
+#### The Steps to Create the Setup:
+
+1. Model the design in a 3D CAD software
+2. Create 2D designs that can be used for the lasercutter
+3. Lasercut all the pieces
+4. Prepare the knob file for the 3D printer
+5. Put the knob onto the printer
+6. Once all parts are prepare it is time to assemble. Use the hotglue to attach the wrap around part of the design to the top plate of the dial case.
+7. In the mean time build the round table by slotting the two cross parts together and slotting into the cuts on the tabletop. At this time you can add any inforgraphic you might want.
+8. Once the glue is dried attach the potentiometer to the top using small screws, add the infographic if desired and attach the printed knob.
+9. Take wires from the energy box and lead up to the dial and attach the arduino and powerbank to the potentiometer
+
+## The Outcome
+
+### Created Energy Box
+In the end we ended up with an energy box connected to a second box that was able to work based on the angle of the dial on the setup. Based on the degrees the relays would turn on and as the angle went up more and more relays turned on. This allowed for us to control the output based on the dial the person was turning. Effectively taking the inputted movement of the person and outputting electrical current to devices connected. This in turn created a feeling of having the power to power the world.
+
+![WhatsApp Image 2024-05-13 at 17 02 26_214e4848](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/0c7b2375-630c-4baf-83a3-33d687c00efe)
+
+### Display Dial Working and Turning on Devices
+The actual final display of the week was the dial setup and having classmates interact with it. The goal of this was to combine the code, electrical box and physical stand to create an experience in which the urgency of the energy issue is shown and people start to engage and think about what this is. There are still a few things we want to changem like the top poster we want to lasercut into the top plate so that it has a bit more of a clean feature. We also need to spend some more time considering what actual outputs we would like and how these could grow based on the amount of relays turned on.
+
+https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/75f3b5a2-39b5-4ea5-ab6a-dfa4f91619cd
+
+![WhatsApp Image 2024-05-13 at 17 01 46_ba902437](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/5f61393d-80ca-418a-939c-242a355dbb2a)
 
 
-
+## Reflecting and Moving Forward
