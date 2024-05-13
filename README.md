@@ -22,6 +22,8 @@ The defined input is: **A dial in which people have the power to determine the a
 
 The defined output is: **A group of household electronic machines that start turning on in relation to the energy budget set as the input. All of these things will create an overwhelming feeling of input and things like a tv or radio will give feedback based on the energy problem to the person at the dial**
 
+The defined interaction is: **A way for people to interact with what energy entails and how in modern society we use energy. The interaction should be physical and make use of various senses like hearing, touch, sight.**
+
 # The Plan
 Before we started with this challenge we discussed the steps we felt needed to reach the end goal, and which skills and things were needed beforehand. We wanted to work mostly on hardware during this challenge and get as much done for the display part of MDEFFest so that in the coming weeks we can focus more on further device and AI development. This is why this week was more focussed on the display, however as we didn't want to lose to much momentum we also scheduled moments to work on the AI infrastructure and PCB development for the physical devices of our design project. This was the original planning we had made and we focussed on these primary steps before adding anything else to keep us on track:
 
