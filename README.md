@@ -1,3 +1,5 @@
+
+https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/e113d5c9-d519-465c-96a1-e377d98cf4f2
 # MicroChallenge03 _Carlotta Hylkema & Oliver Lloyd
 
 The third and final microchallenge that took place during our Masters in Design for Emergent Futures at IAAC and ELISAVA in Barcelona. This project was done by Oliver Lloyd and Carlotta Hylkema, as a continuation of our thesis project fociussing on energy usage and finding ways to decrease our consumption not only in homes but also in other systems. This challenge however focussed more on the final design echibition that takes place on June 10th. The technical development of our project took place more during the second microchallenge which can be found here [MicoChallenge 02](https://github.com/ChylkemaMDEF/MicroChallenge-2-Energy-Bot). If you want to view our personal MDEF sites you can find them here:
@@ -32,8 +34,9 @@ Before we started with this challenge we discussed the steps we felt needed to r
 There was a division of tasks that took place throughout the week but in all aspects we helped eachother in the design. Carlotta took the lead in the creation of the arduino code and the electrical relay box. Oliver on the other hand spent the first day trying to better understand how we could create the physical display stand. After the first days of creating these seperate parts we came together to test the electrical box and finish building the setup. We both worked on the posters that were displayed, Carlotta on the dial poster and Oliver on the table poster.  Also in tandem to the work we show in this repo, we were working on further development of our AI bot so we both spent some time trying to build the PCB (Oliver) and better understanding the functions of our AI (Carlotta).
 
 # The Process
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cQKXHks-g-8/0.jpg)](https://www.youtube.com/watch?v=cQKXHks-g-8)
-  
+
+https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/04fdbdea-2375-44fe-941d-bf933d1b6775
+
 ## Building the Relay Circuit and Power Box
 The circuit of this device was quite simple as it required a translation of a rotation of a dial into certain devices being turned on or off gradually. We brainstormed about different potential ways this could happen and it was determined that the best way was to use a potentiometer and several relays that are each connected to their own individual plug.The wanted interaction is as followed:
 
@@ -182,7 +185,8 @@ In the process of building this dial it was quite simple. We started by making a
 ### Created Energy Box
 In the end we ended up with an energy box connected to a second box that was able to work based on the angle of the dial on the setup. Based on the degrees the relays would turn on and as the angle went up more and more relays turned on. This allowed for us to control the output based on the dial the person was turning. Effectively taking the inputted movement of the person and outputting electrical current to devices connected. This in turn created a feeling of having the power to power the world.
 
-![WhatsApp Image 2024-05-13 at 17 02 26_214e4848](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/0c7b2375-630c-4baf-83a3-33d687c00efe)
+![energyboc](https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/4d3b4d39-b858-48f2-b1f4-604b802d46aa)
+
 
 ### Display Dial Working and Turning on Devices
 The actual final display of the week was the dial setup and having classmates interact with it. The goal of this was to combine the code, electrical box and physical stand to create an experience in which the urgency of the energy issue is shown and people start to engage and think about what this is. There are still a few things we want to changem like the top poster we want to lasercut into the top plate so that it has a bit more of a clean feature. We also need to spend some more time considering what actual outputs we would like and how these could grow based on the amount of relays turned on.
