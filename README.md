@@ -14,7 +14,7 @@ We were unsure of the way we wanted to approach this microchallenge at first as 
 **_Inspiration Projects_**:
 * [Energy Grid Project](https://www.most.org/explore/energy-powering-our-future/)
 * [Future Starts Here](https://www.dezeen.com/2018/05/11/vas-the-future-starts-here-exhibition-explores-dark-and-bright-sides-of-tomorrow/)
-* Aurel Energy Box
+* [Happy Joy Stick](https://fablabbcn.org/blog/theclass/controlling-real-life-objects-with-a-joystick)
 
 From this brainstorming session we defined the following:
 
