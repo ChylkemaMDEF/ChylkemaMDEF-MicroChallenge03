@@ -195,3 +195,12 @@ https://github.com/ChylkemaMDEF/ChylkemaMDEF-MicroChallenge03/assets/147051108/7
 
 
 ## Reflecting and Moving Forward
+
+For this challenge we were happy to focus on a bit more hardware and physical interaction design, as the rest of our project really relies on people interacting with software based tools it was a nice change of pace. It also really got us thinking about the MDEF fest (the final showcase at the end of the year where we exhibit the research we've been working on) and how we were going to get people to interact with our display stand and understand the research we'd been working on. 
+
+It was nice to see that a relatively simple idea of a large dial that invited you to turn on the power to the world became so effective at illustrating the point of energy overconsumption. The entire idea behind our research is not to make individuals feel as though it is their fault that we are consuming so much, rather it is to galvanise them to reflect and want to take action, no matter how small. Watching members of our class interact with the dial and rad the information displayed, it was great to see that this was actually giving them pause and take a moment to understand exactly what the numbers of consumption meant. To that end it was really good to have the various appliances plugged in to create a form of overwhelming sensory experience to try and illustrate that. 
+We recieved some really good feedback from that first showing and we are looking forward to implementing that into the final display. 
+
+The order in which the appliances are turned on is going to be very important, we are going to have to restructure it in such a way that the most essential appliances turn on first and scale to up to more and more convenience or luxury items that aren't strictly necessary to survival but to a quality of life that we've become accustomed to. That's going to be really important because if we can illustrate that the items that we deem "essential" aren't necessarily so but we feel like we couldn't live without them, then perhaps that would be enough to motivate people to stop and reflect on just how much energy they use and is embodied in them, and if there was a better way to keep using those conveniences but with a lower energy consumption bill. 
+
+That would be great, and is going to be the next step that we are going to focus on for the exhibit design of The WattWise Project.
